@@ -26,8 +26,8 @@ export default class Index extends React.Component {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
         'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
+        ...this.state
+      })
     })
       .then(() => navigate(form.getAttribute('action')))
       .catch(error => alert(error))
@@ -52,8 +52,7 @@ export default class Index extends React.Component {
                 <input type="hidden" name="form-name" value="contact" />
                 <div hidden>
                   <label>
-                    Don’t fill this out:{' '}
-                    <input name="bot-field" onChange={this.handleChange} />
+                    Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
                 <div className="field">
