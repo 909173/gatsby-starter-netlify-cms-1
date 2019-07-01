@@ -12,8 +12,12 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
+          <div class="footer-content-pic">
+            
+            <img src="/img/BakeryLicoロゴ.png" style={{ width: '14em', height: '14em' }} />
+            <img src="/img/地図2.png" style={{width: '16em'}}/>
+          </div>
           {/* <img src={logo} alt="Kaldi" style={{ width: '14em', height: '10em' }} /> */}
-          <img src="/img/BakeryLicoロゴ.png" style={{ width: '14em', height: '14em' }} />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
