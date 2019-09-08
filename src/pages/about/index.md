@@ -2,9 +2,9 @@
 templateKey: about-page
 title: Information
 ---
-### 8月の予定
+### 9月の予定
 
-![8月の予定](/img/2019_08.png)
+![9月の予定](/img/2019_09.png)
 
 
 ### お知らせ
@@ -15,4 +15,4 @@ title: Information
 
 [facebook](https://www.facebook.com/kana.shinomiya.3)
 
-良ければ見てみてください。
+よろしければご覧下さい。
