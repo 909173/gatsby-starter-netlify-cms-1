@@ -2,9 +2,9 @@
 templateKey: about-page
 title: Information
 ---
-### 10月の予定
+### 11月の予定
 
-![10月の予定](/img/2019_10_2.png)
+![10月の予定](/img/2019_11.png)
 
 
 ### お知らせ
