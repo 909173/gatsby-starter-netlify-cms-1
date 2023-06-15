@@ -3,6 +3,6 @@
   command = "npm run build"
   functions = "lambda"
 [build.environment]
-  NODE_VERSION = "12.22.19"
+  NODE_VERSION = "12.22.12"
   NPM_VERSION = "8.12.1"
   NPM_FLAGS = "--legacy-peer-deps"
