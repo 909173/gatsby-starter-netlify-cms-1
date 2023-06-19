@@ -14,10 +14,12 @@ const imageStyle = {
 export const IndexPageTemplate = ({
   subheading,
 }) => (
-  <div>
+  <div style={{
+    paddingTop: "4px"
+  }}>
     <Carousel
       showThumbs={false}
-      centerSlidePercentage={55}
+      centerSlidePercentage={50}
       autoPlay
       showArrows
       infiniteLoop
