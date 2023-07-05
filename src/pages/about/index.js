@@ -5,10 +5,10 @@ export default function Access() {
   return (
     <Layout>
       <section className="section">
-        <Helmet title={"Bakery Lico アクセス"} />
+        <Helmet title={"Bakery Lico 営業日"} />
         <div className="container content">
           <div>
-            <h3>アクセス</h3>
+            <h3>営業日</h3>
             <img src="/img/1686808773422.jpg" alt="2023年 7月の営業日" />
           </div>
         </div>
