@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 // import github from '../img/github-icon.svg'
 // import logo from '../img/logo.svg'
+import instagram from "../img/social/instagram.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -53,9 +54,11 @@ const Navbar = class extends React.Component {
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
-            
           >
-            <div className="navbar-start has-text-centered" style={{ width: "100%"}}>
+            <div
+              className="navbar-start has-text-centered"
+              style={{ width: "100%" }}
+            >
               <Link className="navbar-item" to="/">
                 Bakery Lico
               </Link>
@@ -72,6 +75,13 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/access">
                 アクセス
               </Link>
+              <a title="instagram" href="https://instagram.com/bakery_lico/">
+                <img
+                  src={instagram}
+                  alt="Instagram"
+                  style={{ width: "24px", height: "24px", marginTop: "14px" }}
+                />
+              </a>
             </div>
           </div>
         </div>

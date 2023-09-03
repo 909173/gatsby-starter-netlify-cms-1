@@ -9,7 +9,7 @@ export default function Access() {
         <div className="container content">
           <div>
             <h3>営業日</h3>
-            <img src="/img/1690760838108.jpg" alt="2023年 8月の営業日" />
+            <img src="/img/1693741479507.jpg" alt="2023年 9月の営業日" />
           </div>
         </div>
       </section>
